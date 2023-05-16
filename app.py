@@ -24,6 +24,7 @@ handler = WebhookHandler(os.getenv('9a63b71fa52c3a8633a185964380a6ee'))
 # OPENAI API Key初始化設定
 openai.api_key = os.getenv('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')
 
+line_bot_api.push_message('Ue8e4ec66ddda6a28397d880b4028484c',TextSendMessage(text='你可以開始了'))
 
 def GPT_response(text):
     # 接收回應
